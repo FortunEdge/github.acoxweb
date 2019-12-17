@@ -22,7 +22,6 @@ p {
     justify-content: center;
     height: 100vh;
     width: 100vw;
-    overflow: auto;
 }
 
 #contentCont {
@@ -32,6 +31,7 @@ p {
     background-color: #fff;
     min-height: 50vh;
     text-align: center;
+    overflow: auto;
 }
 
 @media screen and (max-width: 750px) {
@@ -46,12 +46,9 @@ p {
 
 @media screen and (max-width: 350px) {
     #bgCont {
-        display: block;
     }
     #contentCont {
-        margin: 10px auto 50px auto;
-        padding-top: 20px;
-        padding-bottom: 20px;
+        height: 90%;
     }
 }
 
