@@ -44,9 +44,7 @@ p {
     }
 }
 
-@media screen and (max-width: 350px) {
-    #bgCont {
-    }
+@media screen and (max-width: 40px) {
     #contentCont {
         height: 90%;
     }
