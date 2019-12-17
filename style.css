@@ -49,10 +49,9 @@ p {
         display: block;
     }
     #contentCont {
-        margin: auto;
+        margin: 10px auto 50px auto;
         padding-top: 20px;
         padding-bottom: 20px;
-        margin-bottom: 100px;
     }
 }
 
