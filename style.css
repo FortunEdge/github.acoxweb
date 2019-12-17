@@ -30,6 +30,7 @@ p {
     width: 70%;
     background-color: #fff;
     min-height: 50vh;
+    max-height: 90vh;
     text-align: center;
     overflow: auto;
 }
@@ -41,12 +42,6 @@ p {
 
     .titleAndImage {
         flex-direction: column;
-    }
-}
-
-@media screen and (max-width: 40px) {
-    #contentCont {
-        height: 90%;
     }
 }
 
