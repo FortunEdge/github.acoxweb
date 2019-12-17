@@ -7,7 +7,7 @@ h1 {
 }
 
 p {
-    font-size: x-large;
+    font-size: 20px;
 }
 
 #bgCont {
@@ -32,6 +32,16 @@ p {
    /* background-color: rgba(255,255,255,0.8);*/
     min-height: 50vh;
     text-align: center;
+}
+
+@media screen and (max-width: 750px) {
+    #contentCont {
+        width: 90%;
+    }
+
+    .titleAndImage {
+        flex-direction: column;
+    }
 }
 
 #marginCont {
