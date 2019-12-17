@@ -1,0 +1,65 @@
+body {
+    font-family: sans-serif;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+p {
+    font-size: x-large;
+}
+
+#bgCont {
+    /* Positioning and bg */
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    background-image: url("bg_tile.png");
+    background-size: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+    overflow-y: auto;
+}
+
+#contentCont {
+    display: block;
+    width: 70%;
+    background-color: #fff;
+   /* background-color: rgba(255,255,255,0.8);*/
+    min-height: 50vh;
+    text-align: center;
+}
+
+#marginCont {
+    margin: 50px 50px 50px 50px;
+}
+
+.titleAndImage {
+   display: flex;
+   align-items: center;
+   justify-content: center; 
+}
+
+.socialIcons {
+    display: flex;
+    margin: auto;
+    background-color: #eee;
+    width: fit-content;
+    height: 40px;
+}
+
+.socialIcons > a {
+    margin: 10px;
+    width: 25px;
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.socialIcons > a:hover {
+    color: #447bce;
+}
