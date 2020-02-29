@@ -1,0 +1,132 @@
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+div#main {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    transition-duration: 1s;
+}
+div#sidebar {
+    position:absolute;
+    display: block;
+    top:0px;
+    left:0px;
+    background-color: #bbbbbb;
+    width: 250px;
+    height: 100vh;
+    padding: 0px 5px 0px 5px;
+    transition-duration: 1s;
+}
+
+div#triangleCont {
+    position:relative;
+    left: 260px;
+    width: calc(100vw - 280px);
+    height: 100vh;
+    display: block;
+    overflow: scroll;
+    padding-left: 20px;
+    transition-duration: 1s;
+}
+
+div#triangleCont > h1 {
+    margin-top: 50px;
+}
+
+button#sidebar-toggle {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 40px;
+    height: 40px;
+    background-color: #bbb;
+    border: none;
+}
+
+/*
+button#sidebar-toggle > div {
+    height: 5px;
+    margin: 5px 0px 0px 0px;
+    background-color: #333;
+    border-radius: 5px;
+}
+*/
+
+button#sidebar-toggle > div:first-child {
+    position: absolute;
+    z-index: 1;
+    top: 10px;
+    right: 10px;
+    height: 5px;
+    width: 20px;
+    background-color: #333;
+    transform: rotate(-40deg);
+    border-radius: 5px;
+    transition-duration: 1s;
+}
+
+button#sidebar-toggle > div:last-child {
+    position: absolute;
+    top: 20px;
+    right: 10px;
+    height: 5px;
+    width: 20px;
+    background-color: #333;
+    transform: rotate(40deg);
+    border-radius: 5px;
+    transition-duration: 1s;
+}
+
+p.instr {
+    font-weight: bold;
+    font-size: large;
+}
+
+/*****************
+   Table Styles
+******************/
+
+table {
+    border: 2px solid #333;
+    margin-bottom: 20px;
+}
+
+table#theTriangle, th, td {
+    text-align: center;
+    border-collapse: collapse;
+}
+
+thead {
+    border-bottom: 2px solid #333333;
+}
+
+thead > tr {
+    background-color: #fff;
+}
+
+tr {
+    background-color: #eeeeee;
+}
+
+tr:nth-child(even) {
+    background-color: #e0e0e0;
+}
+
+th, td {
+    min-width: 50px;
+    padding:0px 5px 0px 5px;
+    height: 30px;
+}
+
+td:first-child {
+    background-color: #fff;
+    border-right: 2px solid #333;
+    font-weight: bold;
+}
+
+td:hover, th:hover {
+    background-color: #cfcfcf;
+
+}
