@@ -1,0 +1,9 @@
+#pixelMagic {
+    border: 2px solid black;
+    width: 95vw;
+    max-width: 600px;
+    height: 95vw;
+    max-height: 600px;
+    display: block;
+    margin: auto;
+}

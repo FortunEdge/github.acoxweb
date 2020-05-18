@@ -7,6 +7,27 @@
         <meta name="viewport" content="width=device-width, minimum-scale=1"/>
     </head>
     <body>
-        <h1>Coming Soon</h1>
+        <div id="headBar">
+            <div class="logoText">Pixel Library</div>
+            <ul class="nav">
+                <li>About</li>
+            </ul>
+        </div>
+        <h1 id="artTitle"></h1>
+        <canvas id="pixelMagic"></canvas>
+        <div id="infoBox">
+            <button onclick="newRand()">Generate</button>
+            <button>Previous</button>
+            <button>Next</button>
+            <input id="prob" name="prob" type="range" min="0" max="100" value="50" oninput="upProbVal(0)">
+            <input id="probVal" name="probVal" type="number" id="probVal" min="0" max="1" step="0.01" value="0.5" oninput="upProbVal(1)">
+        </div>
     </body>
+    <!--
+        Stuff this thing does:
+        - Randomly generates 64 bit binary string
+        - Creates pixel art from the binary string
+        - Stores 64 bin binary string in a hex representation as a url parameter for shareability (16 characters long)
+        - Ability to download the generated image
+    -->
 </html>
