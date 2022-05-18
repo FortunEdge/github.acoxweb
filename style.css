@@ -32,6 +32,7 @@ p {
     max-height: 90vh;
     text-align: center;
     overflow: auto;
+    border-radius: 12px;
 }
 
 @media screen and (max-width: 750px) {
@@ -57,7 +58,6 @@ p {
 .socialIcons {
     display: flex;
     margin: auto;
-    background-color: #eee;
     width: fit-content;
     height: 40px;
 }
